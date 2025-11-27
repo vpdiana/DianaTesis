@@ -35,7 +35,6 @@ El curso está dividido en 7 notebooks progresivos:
 ### 7. Análisis Espectral Comparativo
 * **Notebook 7 (N7):** Caracterización espectral del músculo. Análisis de la distribución de energía de banda ancha del EMG, cálculo de la **Frecuencia Mediana** como indicador de fatiga y contraste final con la estructura rítmica del EEG.
 
----
 
 ## 🛠️ Requisitos e Instalación
 
@@ -73,4 +72,4 @@ Este trabajo fue desarrollado como parte del reporte de práctica profesional pa
 
 ## 📄 Licencia
 
-Este proyecto se distribuye bajo la licencia [MIT](LICENSE), fomentando el uso libre, la modificación y la distribución con la debida atribución.
+Este proyecto se distribuye bajo la licencia abierta
