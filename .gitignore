@@ -1,1 +1,22 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python (archivos compilados)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editores de código
 .vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos de datos o logs
+*.log
