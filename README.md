@@ -60,7 +60,7 @@ Los notebooks utilizan datos reales provenientes de protocolos experimentales ac
     * *Fuente:* Práctica de Saldaña Enciso & González González (Facultad de Ciencias, UNAM).
 2.  **EMG:** Registros de **Backyard Brains SpikerBox** (1 canal, 44.1 kHz). Contracciones intermitentes del músculo gastrocnemio.
     * *Fuente:* Repositorio *Electrophysiology Basics* (McKiernan, 2025).
-```
+
 
 ## Referencias y Créditos
 
