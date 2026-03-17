@@ -6,9 +6,7 @@ Este repositorio contiene una colección de **Jupyter Notebooks** diseñados com
 El proyecto guía al usuario a través de un flujo de trabajo completo ("pipeline"), desde la carga de datos crudos hasta el análisis espectro-temporal avanzado, utilizando librerías de código abierto en Python.
 
 ##  Objetivo
-Proporcionar herramientas prácticas y reproducibles para analizar y comparar dos de las bioseñales más importantes:
-* **Electroencefalografía (EEG):** Actividad oscilatoria de la corteza cerebral (Enfoque en ritmos y sincronización).
-* **Electromiografía (EMG):** Actividad eléctrica de la contracción muscular (Enfoque en magnitud y fuerza).
+El objetivo de este proyecto es desarrollar herramientas de análisis de bioseñales (EMG y EEG) escritas en el lenguaje Python. El producto final será una serie de notebooks en Jupyter que permitirá a los estudiantes de la licenciatura tener material de consulta con explicaciones y procedimientos explícitos para que conduzcan análisis de bioseñales, dicho producto estará disponible de manera pública en un repositorio de Github. Las técnicas que se explorarán durante la práctica van más allá del análisis básico, pues se abordarán técnicas avanzadas como: análisis de transformada ondícula, y análisis espectral  además de aplicación de filtros.
 
 ##  Contenido del Repositorio
 
