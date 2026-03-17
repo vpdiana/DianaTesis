@@ -70,5 +70,5 @@ Este trabajo fue desarrollado como parte del reporte de práctica profesional pa
 
 **Agradecimientos especiales:**
 * A la **Dra. Erin McKiernan** por su mentoría, materiales de enseñanza abierta y el código base para el análisis de EMG.
-* Al proyecto *Electrophysiology Basics* por promover la ciencia abierta y la reproducibilidad.
+* Al proyecto *Electrophysiology practicals for undergraduate students* por promover la ciencia abierta y la reproducibilidad.
 
