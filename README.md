@@ -1,16 +1,16 @@
 # DianaTesis
-# Herramientas de Análisis de Bioseñales (EEG & EMG) en Python 🧠💪
+# Herramientas de Análisis de Bioseñales (EEG & EMG) en Python 
 
 Este repositorio contiene una colección de **Jupyter Notebooks** diseñados como material de consulta y aprendizaje para el **Procesamiento Digital de Señales (DSP)** aplicado a la Física Biomédica.
 
 El proyecto guía al usuario a través de un flujo de trabajo completo ("pipeline"), desde la carga de datos crudos hasta el análisis espectro-temporal avanzado, utilizando librerías de código abierto en Python.
 
-## 🎯 Objetivo
+##  Objetivo
 Proporcionar herramientas prácticas y reproducibles para analizar y comparar dos de las bioseñales más importantes:
 * **Electroencefalografía (EEG):** Actividad oscilatoria de la corteza cerebral (Enfoque en ritmos y sincronización).
 * **Electromiografía (EMG):** Actividad eléctrica de la contracción muscular (Enfoque en magnitud y fuerza).
 
-## 📂 Contenido del Repositorio
+##  Contenido del Repositorio
 
 El curso está dividido en 7 notebooks progresivos:
 
@@ -36,7 +36,7 @@ El curso está dividido en 7 notebooks progresivos:
 * **Notebook 7 (N7):** Caracterización espectral del músculo. Análisis de la distribución de energía de banda ancha del EMG, cálculo de la **Frecuencia Mediana** como indicador de fatiga y contraste final con la estructura rítmica del EEG.
 
 
-## 🛠️ Requisitos e Instalación
+## Requisitos e Instalación
 
 Este proyecto utiliza **Python 3.x**. Las principales dependencias son:
 
@@ -51,7 +51,7 @@ Para instalar las dependencias necesarias, puedes ejecutar el siguiente comando:
 
 ```bash
 pip install numpy scipy matplotlib pandas pycwt spkit
-## 📊 Datos Utilizados
+##  Datos Utilizados
 
 Los notebooks utilizan datos reales provenientes de protocolos experimentales académicos:
 
@@ -60,7 +60,7 @@ Los notebooks utilizan datos reales provenientes de protocolos experimentales ac
 2.  **EMG:** Registros de **Backyard Brains SpikerBox** (1 canal, 44.1 kHz). Contracciones intermitentes del músculo gastrocnemio.
     * *Fuente:* Repositorio *Electrophysiology Basics* (McKiernan, 2025).
 
-## 📖 Referencias y Créditos
+## Referencias y Créditos
 
 Este trabajo fue desarrollado como parte del reporte de práctica profesional para la titulación de **Físico Biomédico** en la **Facultad de Ciencias, UNAM**.
 
