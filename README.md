@@ -1,4 +1,4 @@
-# DianaTesis
+# Práctica Profesional Supervisada
 # Herramientas de Análisis de Bioseñales (EEG & EMG) en Python 
 
 Este repositorio contiene una colección de **Jupyter Notebooks** diseñados como material de consulta y aprendizaje para el **Procesamiento Digital de Señales (DSP)** aplicado a la Física Biomédica.
