@@ -1,4 +1,4 @@
-# DianaTesis
+# Práctica Profesional Supervisada
 # Herramientas de Análisis de Bioseñales (EEG & EMG) en Python 
 
 Este repositorio contiene una colección de **Jupyter Notebooks** diseñados como material de consulta y aprendizaje para el **Procesamiento Digital de Señales (DSP)** aplicado a la Física Biomédica.
@@ -6,13 +6,14 @@ Este repositorio contiene una colección de **Jupyter Notebooks** diseñados com
 El proyecto guía al usuario a través de un flujo de trabajo completo ("pipeline"), desde la carga de datos crudos hasta el análisis espectro-temporal avanzado, utilizando librerías de código abierto en Python.
 
 ##  Objetivo
-Proporcionar herramientas prácticas y reproducibles para analizar y comparar dos de las bioseñales más importantes:
-* **Electroencefalografía (EEG):** Actividad oscilatoria de la corteza cerebral (Enfoque en ritmos y sincronización).
-* **Electromiografía (EMG):** Actividad eléctrica de la contracción muscular (Enfoque en magnitud y fuerza).
+El objetivo de este proyecto es desarrollar herramientas de análisis de bioseñales (EMG y EEG) escritas en el lenguaje Python. El producto final es una serie de notebooks en Jupyter que permitirá a los estudiantes de la licenciatura tener material de consulta con explicaciones y procedimientos explícitos para que conduzcan análisis de bioseñales, dicho producto está disponible de manera pública en este repositorio de Github. Las técnicas que se explorarán durante la práctica van más allá del análisis básico, pues se abordarán técnicas avanzadas como: análisis de transformada ondícula, y análisis espectral  además de aplicación de filtros.
+Cada señal tiene particularidades en el análisis:
+* Electroencefalografía (EEG): Actividad oscilatoria de la corteza cerebral (Enfoque en ritmos y sincronización).
+* Electromiografía (EMG): Actividad eléctrica de la contracción muscular (Enfoque en magnitud y fuerza).
 
 ##  Contenido del Repositorio
 
-El curso está dividido en 7 notebooks progresivos:
+El material está dividido en 7 notebooks progresivos:
 
 ### 1. Fundamentos y Visualización
 * **Notebook 1 (N1):** Introducción a la manipulación de series de tiempo biomédicas. Carga de archivos (CSV para EEG, WAV para EMG), manejo de estructuras de datos con `Pandas` y `NumPy`, y visualización inicial en el dominio del tiempo.
@@ -30,7 +31,7 @@ El curso está dividido en 7 notebooks progresivos:
 * **Notebook 5 (N5):** Técnicas avanzadas para superar el compromiso de resolución. Uso de la **Transformada Wavelet Continua (CWT)** para análisis multiescala y **Transformada de Hilbert** para la extracción de amplitud y frecuencia instantánea (dinámica del ritmo alfa).
 
 ### 6. Procesamiento Específico de EMG vs. EEG
-* **Notebook 6 (N6):** Comparativa metodológica. Implementación del protocolo estándar para EMG: **Rectificación y Envolvente** (vía Hilbert). Discusión sobre por qué el procesamiento de EEG (oscilatorio) difiere del EMG (magnitud de activación).
+* **Notebook 6 (N6):** Metodología comparativa. Implementación del protocolo estándar para EMG: **Rectificación y Envolvente** (vía Hilbert). Discusión sobre por qué el procesamiento de EEG (oscilatorio) difiere del EMG (magnitud de activación).
 
 ### 7. Análisis Espectral Comparativo
 * **Notebook 7 (N7):** Caracterización espectral del músculo. Análisis de la distribución de energía de banda ancha del EMG, cálculo de la **Frecuencia Mediana** como indicador de fatiga y contraste final con la estructura rítmica del EEG.
@@ -57,9 +58,9 @@ pip install numpy scipy matplotlib pandas pycwt spkit
 Los notebooks utilizan datos reales provenientes de protocolos experimentales académicos:
 
 1.  **EEG:** Registros de **Emotiv EPOC+** (14 canales, 128 Hz). Protocolo de reposo visual (Ojos Abiertos / Ojos Cerrados).
-    * *Fuente:* Práctica de Saldaña Enciso & González González (Facultad de Ciencias, UNAM).
+    * *Fuente:* Saldaña, S. Manual-Digital-de-Practicas-Teoricas-y-Experimentales-para-el-Estudio-de-Electrofisiologia. https://github.com/soulsalen/Manual-Digital-de-Practicas-Teoricas-y-Experimentales-para-el-Estudio-de-Electrofisiologia
 2.  **EMG:** Registros de **Backyard Brains SpikerBox** (1 canal, 44.1 kHz). Contracciones intermitentes del músculo gastrocnemio.
-    * *Fuente:* Repositorio *Electrophysiology Basics* (McKiernan, 2025).
+    * *Fuente:* * McKiernan, E.C. Electrophysiology practicals for undergraduate students. https://github.com/emckiernan/electrophys. Accedido en marzo de 2026.
 
 
 ## Referencias y Créditos
@@ -70,8 +71,6 @@ Este trabajo fue desarrollado como parte del reporte de práctica profesional pa
 
 **Agradecimientos especiales:**
 * A la **Dra. Erin McKiernan** por su mentoría, materiales de enseñanza abierta y el código base para el análisis de EMG.
-* Al proyecto *Electrophysiology Basics* por promover la ciencia abierta y la reproducibilidad.
+* Al proyecto *Electrophysiology practicals for undergraduate students* por promover la ciencia abierta y la reproducibilidad.
+* A la Dra. Gabriela González González por proporcionar los datos de EEG y por su mentoría y dedicación para el proyecto.
 
-##  Licencia
-
-Este proyecto se distribuye bajo la licencia abierta
