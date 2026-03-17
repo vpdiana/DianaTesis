@@ -13,7 +13,7 @@ Cada señal tiene particularidades en el análisis:
 
 ##  Contenido del Repositorio
 
-El curso está dividido en 7 notebooks progresivos:
+El material está dividido en 7 notebooks progresivos:
 
 ### 1. Fundamentos y Visualización
 * **Notebook 1 (N1):** Introducción a la manipulación de series de tiempo biomédicas. Carga de archivos (CSV para EEG, WAV para EMG), manejo de estructuras de datos con `Pandas` y `NumPy`, y visualización inicial en el dominio del tiempo.
@@ -31,7 +31,7 @@ El curso está dividido en 7 notebooks progresivos:
 * **Notebook 5 (N5):** Técnicas avanzadas para superar el compromiso de resolución. Uso de la **Transformada Wavelet Continua (CWT)** para análisis multiescala y **Transformada de Hilbert** para la extracción de amplitud y frecuencia instantánea (dinámica del ritmo alfa).
 
 ### 6. Procesamiento Específico de EMG vs. EEG
-* **Notebook 6 (N6):** Comparativa metodológica. Implementación del protocolo estándar para EMG: **Rectificación y Envolvente** (vía Hilbert). Discusión sobre por qué el procesamiento de EEG (oscilatorio) difiere del EMG (magnitud de activación).
+* **Notebook 6 (N6):** Metodología comparativa. Implementación del protocolo estándar para EMG: **Rectificación y Envolvente** (vía Hilbert). Discusión sobre por qué el procesamiento de EEG (oscilatorio) difiere del EMG (magnitud de activación).
 
 ### 7. Análisis Espectral Comparativo
 * **Notebook 7 (N7):** Caracterización espectral del músculo. Análisis de la distribución de energía de banda ancha del EMG, cálculo de la **Frecuencia Mediana** como indicador de fatiga y contraste final con la estructura rítmica del EEG.
