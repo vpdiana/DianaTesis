@@ -58,9 +58,9 @@ pip install numpy scipy matplotlib pandas pycwt spkit
 Los notebooks utilizan datos reales provenientes de protocolos experimentales académicos:
 
 1.  **EEG:** Registros de **Emotiv EPOC+** (14 canales, 128 Hz). Protocolo de reposo visual (Ojos Abiertos / Ojos Cerrados).
-    * *Fuente:* Práctica de Saldaña Enciso & González González (Facultad de Ciencias, UNAM).
+    * *Fuente:* Saldaña, S. Manual-Digital-de-Practicas-Teoricas-y-Experimentales-para-el-Estudio-de-Electrofisiologia. https://github.com/soulsalen/Manual-Digital-de-Practicas-Teoricas-y-Experimentales-para-el-Estudio-de-Electrofisiologia
 2.  **EMG:** Registros de **Backyard Brains SpikerBox** (1 canal, 44.1 kHz). Contracciones intermitentes del músculo gastrocnemio.
-    * *Fuente:* Repositorio *Electrophysiology Basics* (McKiernan, 2025).
+    * *Fuente:* * McKiernan, E.C. Electrophysiology practicals for undergraduate students. https://github.com/emckiernan/electrophys. Accedido en marzo de 2026.
 
 
 ## Referencias y Créditos
@@ -72,4 +72,5 @@ Este trabajo fue desarrollado como parte del reporte de práctica profesional pa
 **Agradecimientos especiales:**
 * A la **Dra. Erin McKiernan** por su mentoría, materiales de enseñanza abierta y el código base para el análisis de EMG.
 * Al proyecto *Electrophysiology practicals for undergraduate students* por promover la ciencia abierta y la reproducibilidad.
+* A la Dra. Gabriela González González por proporcionar los datos de EEG y por su mentoría y dedicación para el proyecto.
 
