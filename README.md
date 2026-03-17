@@ -52,6 +52,7 @@ Para instalar las dependencias necesarias, puedes ejecutar el siguiente comando:
 ```bash
 pip install numpy scipy matplotlib pandas pycwt spkit
 ##  Datos Utilizados
+```
 
 Los notebooks utilizan datos reales provenientes de protocolos experimentales académicos:
 
